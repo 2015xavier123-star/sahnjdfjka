@@ -13,8 +13,8 @@ local SpawnToyRF = menuToys:WaitForChild("SpawnToyRemoteFunction")
 local DeleteToyRE = menuToys:WaitForChild("DestroyToy")
 
 local Settings = {
-	KillAll = true,
-	IgnoreFriends = true,
+	KillAll = false,
+	IgnoreFriends = false,
 }
 
 local function getLocalRoot()
